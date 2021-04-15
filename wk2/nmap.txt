@@ -1,0 +1,64 @@
+ nmap github.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-29 19:59 UTC
+Nmap scan report for github.com (140.82.114.3)
+Host is up (0.017s latency).
+rDNS record for 140.82.114.3: lb-140-82-114-3-iad.github.com
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+9418/tcp open  git
+
+Nmap done: 1 IP address (1 host up) scanned in 15.35 seconds
+
+***************************************************************
+
+ nmap -p 8080 github.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-29 19:59 UTC
+Nmap scan report for github.com (140.82.114.3)
+Host is up (0.017s latency).
+rDNS record for 140.82.114.3: lb-140-82-114-3-iad.github.com
+
+PORT     STATE    SERVICE
+8080/tcp filtered http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 11.34 seconds
+root@intro-cyber-security-2021:~# nmap -p 30-100 github.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-29 20:00 UTC
+Nmap scan report for github.com (140.82.113.3)
+Host is up (0.017s latency).
+rDNS record for 140.82.113.3: lb-140-82-113-3-iad.github.com
+Not shown: 70 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 12.68 seconds
+
+***************************************************************
+
+nmap -p 30-100 github.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-29 20:00 UTC
+Nmap scan report for github.com (140.82.113.3)
+Host is up (0.017s latency).
+rDNS record for 140.82.113.3: lb-140-82-113-3-iad.github.com
+Not shown: 70 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 12.68 seconds
+
+***************************************************************
+
+nmap -F github.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-29 20:01 UTC
+Nmap scan report for github.com (140.82.113.4)
+Host is up (0.017s latency).
+rDNS record for 140.82.113.4: lb-140-82-113-4-iad.github.com
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 12.86 seconds

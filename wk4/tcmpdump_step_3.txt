@@ -1,0 +1,20 @@
+tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+19:33:56.965239 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 1526706252:1526706360, ack 2169770931, win 501, length 108
+E...k.@.@.....  4.w.v...BZ..L.T..P...Lt..A..
+`?.n.Q..s.%.
+.m..z....E.7..U~t9....;.....l&.u.+..W.$_.=Y...|p.}Om..3..@..w?.=.(..TD.....*.........W.l...
+19:33:56.965398 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 108:144, ack 1, win 501, length 36
+E..Lk.@.@.....  4.w.v...BZ....T..P...L,..eO...=.Q..=Z..M........n.I....*N...c
+19:33:56.965551 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 144:252, ack 1, win 501, length 108
+E...k.@.@.....  4.w.v...BZ....T..P...Lt....$.....B?.V.......29....E.G{XR.;3c.Y3.E.S..k(F.m..r.l.        .O.....(..xB......}...T.nI..V....E..[.7...f.Q.......
+19:33:56.965721 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 252:288, ack 1, win 501, length 36
+E..Lk.@.@.....  4.w.v...BZ..H.T..P...L,..w../.^....Y87.Y.h7>..4..m.N.....@A.6
+^C19:33:56.967086 IP 159.203.9.52.35505 > dns.google.domain: 17351+ PTR? 118.244.119.174.in-addr.arpa. (46)
+E..J..@.@.....  4.......5.6.VC............118.244.119.174.in-addr.arpa.....
+
+5 packets captured
+22 packets received by filter
+0 packets dropped by kernel
+root@intro-cyber-security-2021:~#

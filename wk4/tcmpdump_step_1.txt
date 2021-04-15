@@ -1,0 +1,53 @@
+root@intro-cyber-security-2021:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+19:29:50.529065 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 1516434504:1516434612, ack 2169763747, win 501, length 108
+19:29:50.529220 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 108:144, ack 1, win 501, length 36
+19:29:50.529274 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 144:252, ack 1, win 501, length 108
+19:29:50.529377 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 252:288, ack 1, win 501, length 36
+19:29:50.530138 IP 159.203.9.52.36917 > dns.google.domain: 25598+ PTR? 118.244.119.174.in-addr.arpa. (46)
+19:29:50.538658 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 144, win 1026, length 0
+19:29:50.538710 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 288, win 1026, length 0
+19:29:50.549459 IP dns.google.domain > 159.203.9.52.36917: 25598 1/0/0 PTR cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com. (115)
+19:29:50.549895 IP 159.203.9.52.40935 > dns.google.domain: 5037+ PTR? 52.9.203.159.in-addr.arpa. (43)
+19:29:50.558477 IP dns.google.domain > 159.203.9.52.40935: 5037 NXDomain 0/1/0 (110)
+19:29:50.558917 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 288:500, ack 1, win 501, length 212
+19:29:50.559033 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 500:536, ack 1, win 501, length 36
+19:29:50.559168 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 536:724, ack 1, win 501, length 188
+19:29:50.559256 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 724:760, ack 1, win 501, length 36
+19:29:50.559380 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 760:948, ack 1, win 501, length 188
+19:29:50.559534 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 948:984, ack 1, win 501, length 36
+19:29:50.559698 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 984:1172, ack 1, win 501, length 188
+19:29:50.559796 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 1172:1208, ack 1, win 501, length 36
+19:29:50.560017 IP 159.203.9.52.40138 > dns.google.domain: 52536+ PTR? 8.8.8.8.in-addr.arpa. (38)
+19:29:50.561290 IP dns.google.domain > 159.203.9.52.40138: 52536 1/0/0 PTR dns.google. (62)
+19:29:50.561473 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 1208:1348, ack 1, win 501, length 140
+19:29:50.561712 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 1348:1564, ack 1, win 501, length 216
+19:29:50.568780 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 500, win 1025, length 0
+19:29:50.568836 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 1564:4484, ack 1, win 501, length 2920
+19:29:50.568861 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 724, win 1024, length 0
+19:29:50.569020 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 4484:4936, ack 1, win 501, length 452
+19:29:50.569088 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 4936:5116, ack 1, win 501, length 180
+19:29:50.569179 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 5116:5152, ack 1, win 501, length 36
+19:29:50.569325 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 5152:5348, ack 1, win 501, length 196
+19:29:50.574626 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 948, win 1023, length 0
+19:29:50.574710 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 5348:6496, ack 1, win 501, length 1148
+19:29:50.574731 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 1172, win 1022, length 0
+19:29:50.574742 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 1564, win 1021, length 0
+19:29:50.574932 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 6496:6676, ack 1, win 501, length 180
+19:29:50.575029 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 6676:6712, ack 1, win 501, length 36
+19:29:50.575154 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 6712:6908, ack 1, win 501, length 196
+19:29:50.575280 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 6908:6944, ack 1, win 501, length 36
+19:29:50.575336 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 6944:7124, ack 1, win 501, length 180
+19:29:50.575417 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 7124:7160, ack 1, win 501, length 36
+19:29:50.575610 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 7160:7340, ack 1, win 501, length 180
+19:29:50.575754 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 7340:7376, ack 1, win 501, length 36
+19:29:50.575858 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 7376:7564, ack 1, win 501, length 188
+19:29:50.575986 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 7564:7600, ack 1, win 501, length 36
+19:29:50.576145 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 7600:7788, ack 1, win 501, length 188
+19:29:50.576227 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 7788:7824, ack 1, win 501, length 36
+19:29:50.576322 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 7824:8012, ack 1, win 501, length 188
+19:29:50.582263 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 3024, win 1026, length 0
+19:29:50.582328 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 8012:10288, ack 1, win 501, length 2276
+19:29:50.582352 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 4936, win 1026, length 0
+19:29:50.582362 IP cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506 > 159.203.9.52.ssh: Flags [.], ack 5152, win 1025, length 0

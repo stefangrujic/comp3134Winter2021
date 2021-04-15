@@ -1,0 +1,41 @@
+root@intro-cyber-security-2021:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+19:43:44.173676 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 1541283616:1541283724, ack 2169780911, win 501, length 108
+        0x0000:  fe00 0000 0101 dafb 90a4 4618 0800 4510  ..........F...E.
+        0x0010:  0094 f8c4 4000 4006 f5a1 9fcb 0934 ae77  ....@.@......4.w
+        0x0020:  f476 0016 f042 5bde 1f20 8154 3aaf 5018  .v...B[....T:.P.
+        0x0030:  01f5 4c74 0000 7ff5 c749 1c0d cf3f 499c  ..Lt.....I...?I.
+        0x0040:  a016 8faf 8724 c03c f06b de97 ba73 afb2  .....$.<.k...s..
+        0x0050:  196d 7290 4472 d27b d262 a2f0 b601 0f15  .mr.Dr.{.b......
+        0x0060:  0a07 e3e1 1dda 5136 a7b0 c6b5 4f4a 5952  ......Q6....OJYR
+        0x0070:  0f95 6aba cace 04f2 6fa5 2479 0e9e b815  ..j.....o.$y....
+        0x0080:  7740 7c71 95dc 496f d3ba 7b73 7bd9 f5dd  w@|q..Io..{s{...
+        0x0090:  7f8d 65b2 67b0 2556 fb36 19b9 c6ec 297e  ..e.g.%V.6....)~
+        0x00a0:  a3d1                                     ..
+19:43:44.173851 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 108:144, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 dafb 90a4 4618 0800 4510  ..........F...E.
+        0x0010:  004c f8c5 4000 4006 f5e8 9fcb 0934 ae77  .L..@.@......4.w
+        0x0020:  f476 0016 f042 5bde 1f8c 8154 3aaf 5018  .v...B[....T:.P.
+        0x0030:  01f5 4c2c 0000 aec7 e754 7779 c1e9 6e3d  ..L,.....Twy..n=
+        0x0040:  53f5 bdc2 177c aee4 6081 f816 f598 5c1e  S....|..`.....\.
+        0x0050:  135a 4513 263e f449 50ac                 .ZE.&>.IP.
+19:43:44.173924 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 144:252, ack 1, win 501, length 108
+        0x0000:  fe00 0000 0101 dafb 90a4 4618 0800 4510  ..........F...E.
+        0x0010:  0094 f8c6 4000 4006 f59f 9fcb 0934 ae77  ....@.@......4.w
+        0x0020:  f476 0016 f042 5bde 1fb0 8154 3aaf 5018  .v...B[....T:.P.
+        0x0030:  01f5 4c74 0000 60d9 e58c 0cb1 77b4 fac1  ..Lt..`.....w...
+        0x0040:  b432 db94 347a becb 4c83 3e56 7c54 0715  .2..4z..L.>V|T..
+        0x0050:  5d35 fb89 74d9 0d23 89a5 5e09 1c3e 1394  ]5..t..#..^..>..
+        0x0060:  86fe 5f21 a650 104a ae7f 21d6 2fc0 fbf7  .._!.P.J..!./...
+        0x0070:  2c20 556e 6e11 86e7 72e3 3ded d32e fc63  ,.Unn...r.=....c
+        0x0080:  9d00 94c4 6797 b9ec 6a14 bdb9 948a 50be  ....g...j.....P.
+        0x0090:  0aee 01ad 2c8a c553 be1e ed1c f47a 3e40  ....,..S.....z>@
+        0x00a0:  9108                                     ..
+19:43:44.174011 IP 159.203.9.52.ssh > cpef81d0fa14323-cmf81d0fa14320.cpe.net.cable.rogers.com.61506: Flags [P.], seq 252:288, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 dafb 90a4 4618 0800 4510  ..........F...E.
+        0x0010:  004c f8c7 4000 4006 f5e6 9fcb 0934 ae77  .L..@.@......4.w
+        0x0020:  f476 0016 f042 5bde 201c 8154 3aaf 5018  .v...B[....T:.P.
+        0x0030:  01f5 4c2c 0000 8d59 e608 5e5a cf43 5e38  ..L,...Y..^Z.C^8
+        0x0040:  c0b8 1224 bd18 2bef bd09 4e04 1cc0 e64a  ...$..+...N....J
+        0x0050:  c163 b4e0 71d4 2ca8 cc26                 .c..q.,..&
